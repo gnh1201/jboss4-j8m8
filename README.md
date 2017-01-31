@@ -1,6 +1,9 @@
 # jboss4-j8m8
 Dockerfile for JBoss 4 with Oracle JDK 8 and MySQL 8
 
+## How to use
+- docker run -d -p 8000:8000 -p 8080:8080 -p 9990:9990 [j8m8-image-name]
+
 ## references
 - https://hub.docker.com/r/jboss/base/~/dockerfile/
 - https://hub.docker.com/r/nimmis/java-centos/
